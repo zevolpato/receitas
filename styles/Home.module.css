@@ -17,6 +17,7 @@
   align-items: center;
 }
 
+
 .footer {
   width: 100%;
   height: 100px;
@@ -46,18 +47,20 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  line-height: 1.35;
+  font-size: 3rem;
 }
 
 .title,
 .description {
-  text-align: center;
+  text-align: left;
 }
 
 .description {
-  line-height: 1.5;
-  font-size: 1.5rem;
+  line-height: 1.2;
+  font-size: 1.2rem;
+  font-family: 'Roboto';
+  
 }
 
 .code {
@@ -65,8 +68,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  
 }
 
 .grid {
@@ -74,7 +76,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 1200px;
   margin-top: 3rem;
 }
 
@@ -112,6 +114,56 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
+.card2 {
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 30vw;
+  
+}
+
+.button{
+  /* Button */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 48px;
+
+position: static;
+width: 407px;
+height: 60px;
+left: calc(50% - 407px/2);
+top: 396px;
+
+/* yellow button */
+
+background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+/* Button shadow ! */
+
+box-shadow: 0px 5px 8px rgba(222, 151, 0, 0.24), 0px 14px 32px rgba(255, 178, 14, 0.29);
+border-radius: 8px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
 
 @media (max-width: 600px) {
   .grid {
