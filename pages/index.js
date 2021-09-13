@@ -13,7 +13,7 @@ export default function Home() {
         <div className={styles.grid}>
           <div  className={styles.card2}>
           <h1 className={styles.title}>
-          Seja Bem vindo <br /> <code style={{color:'orange'}}>receitas rápidas</code>
+          Seja Bem vindo <br /> <code style={{color:'orange'}}>Receitas rápidas</code>
           </h1>
 
           <p className={styles.description} >
